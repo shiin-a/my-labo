@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  hamster:
+    image: ubuntu
+    environment:
+      pet: hamster
+  cat:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+  dog:
+    image: ubuntu
+    environment:
+      pet: dog
